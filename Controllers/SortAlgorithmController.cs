@@ -149,8 +149,6 @@ namespace my_new_app.Controllers
 					{
 						if (arr[sort] > arr[sort + 1])
 						{
-							jaggedArray[jagged] = arr;
-							jagged++;
 							temp = arr[sort + 1];
 							arr[sort + 1] = arr[sort];
 							arr[sort] = temp;
